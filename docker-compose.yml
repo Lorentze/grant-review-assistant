@@ -1,0 +1,9 @@
+services:
+  grant-review:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      # 可选：在单位私有服务器中配置。也可在网页临时输入 API Key。
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+    restart: unless-stopped
