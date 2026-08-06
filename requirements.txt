@@ -1,5 +1,0 @@
-streamlit>=1.40
-pypdf[crypto]>=5.9
-pandas>=2.2
-openpyxl>=3.1
-openai>=2.0
